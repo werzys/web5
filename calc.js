@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const price = parseInt(productSelect.value, 10);
         const total = quantity * price;
-
         resultDiv.textContent = "Стоимость заказа: " + total + " руб.";
     }
 
